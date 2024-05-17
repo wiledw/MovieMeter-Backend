@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "57c290f2-0222-41b6-bc6f-5a941013c2c0",
+		"name": "Movies-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27475645"
+	},
+	"item": [
+		{
+			"name": "GetMovies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetMoviesByImdbId",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewReview",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reviewBody\": \"I like this movie a lot!\",\r\n    \"imdbId\": \"tt3915174\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/reviews",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
