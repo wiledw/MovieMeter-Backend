@@ -1,7 +1,9 @@
-package wiledw.MovieMeter;
+package wiledw.MovieMeter.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import wiledw.MovieMeter.repository.MovieRepository;
+import wiledw.MovieMeter.model.Movie;
 
 import java.util.List;
 import java.util.Optional;

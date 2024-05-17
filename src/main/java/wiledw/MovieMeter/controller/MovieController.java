@@ -1,10 +1,12 @@
-package wiledw.MovieMeter;
+package wiledw.MovieMeter.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import wiledw.MovieMeter.service.MovieService;
+import wiledw.MovieMeter.model.Movie;
 
 import java.util.List;
 import java.util.Optional;

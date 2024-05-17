@@ -1,4 +1,4 @@
-package wiledw.MovieMeter;
+package wiledw.MovieMeter.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

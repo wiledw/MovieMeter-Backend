@@ -1,10 +1,13 @@
-package wiledw.MovieMeter;
+package wiledw.MovieMeter.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+import wiledw.MovieMeter.repository.ReviewRepository;
+import wiledw.MovieMeter.model.Movie;
+import wiledw.MovieMeter.model.Review;
 
 @Service
 public class ReviewService {
