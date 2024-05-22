@@ -5,6 +5,7 @@ A backend repo for movie-reviews web application built from Java Spring Boot and
 What's in the backend:
 1. RESTful API for the movie reviews.
 2. OAuth2 Login Implementation. (Github and Google)
+3. Simple Unit testing with Mockito and JUnit
    
 
 To run the backend, run the MovieMeterApplication.java file.
