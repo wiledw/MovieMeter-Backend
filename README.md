@@ -3,9 +3,20 @@
 A backend repo for movie-reviews web application built from Java Spring Boot and using MongoDB for database
 
 What's in the backend:
-1. RESTful API for the movie reviews.
+1. RESTful API for the movie reviews. Containing Controller, Service and Repository
+   Description:
+   - Controller: Management of the REST interface of the business logic, handling the CRUD operations
+   - Service: Business logic implementations
+   - Repository: Model/Entity in the system
 2. OAuth2 Login Implementation. (Github and Google)
+   Description:
+   - Created simple login with Google and Github using the OAuth package.
 3. Simple Unit testing with Mockito and JUnit
+   Description:
+    - Created simple unit testing with Mockito and JUnit
+    - Arrange: Test case preparation, which arranging input and targets
+    - Act: Act by calling function or method using what we setup in arrange
+    - Asser: Compare Act result with Targets.
    
 
 To run the backend, run the MovieMeterApplication.java file.
